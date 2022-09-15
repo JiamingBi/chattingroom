@@ -1,0 +1,300 @@
+commit 133498c8e4c1684118c739993cd5ec8c1a3b1356
+Author: fyl <838106527@qq.com>
+Date:   Sat Jan 30 20:15:30 2021 +0800
+
+     修改了makefile
+
+commit a5f05975fa7f5b58f4b60db59b83c28d60cc561e
+Author: fyl <838106527@qq.com>
+Date:   Wed Jan 27 18:55:44 2021 +0800
+
+     修改了说明文档
+
+commit a04a13d7f47ed010693c88b51e5dee0f3853f4ad
+Author: fyl <838106527@qq.com>
+Date:   Wed Jan 27 18:22:52 2021 +0800
+
+     2021.1.27大型改动：自己利用生产者消费者模型实现了线程池，并且加多了几个互斥锁
+
+commit 67199c7f04d690566b89f64065770eb473f2fa5d
+Author: fyl <838106527@qq.com>
+Date:   Wed Jan 27 16:22:15 2021 +0800
+
+     修改了线程池中的线程数量
+
+commit 4e1b4452f43620fcc0f4b54867562ab956a03379
+Merge: c81ccfb 0e2aec1
+Author: fyl <838106527@qq.com>
+Date:   Tue Jan 26 19:40:53 2021 +0800
+
+    Merge branch 'master' of https://github.com/CopyDragon/chat-project-based-on-ubuntu
+
+commit c81ccfb30e632d6559f58b96b3c2391fcc4cd812
+Author: fyl <838106527@qq.com>
+Date:   Tue Jan 26 19:35:42 2021 +0800
+
+     进行了更多的测试，修改了一些内容
+
+commit 0e2aec100a48aeb435f1f7b95f35cd59efd0dc4b
+Author: fuyinglong <55621210+CopyDragon@users.noreply.github.com>
+Date:   Mon Jan 25 18:22:10 2021 +0800
+
+    Update readme.md
+
+commit 004d91fffbf25092a30be9278f339c6dd0d59b55
+Author: fuyinglong <55621210+CopyDragon@users.noreply.github.com>
+Date:   Mon Jan 25 18:20:00 2021 +0800
+
+    Update readme.md
+
+commit 1ca4c8882d3087dc8bb32afec994e8e3afd51585
+Author: fyl <838106527@qq.com>
+Date:   Mon Jan 25 18:18:20 2021 +0800
+
+     再次修改说明文档格式
+
+commit a00a751ec5b4fef35382e5c82c44f49182a264f8
+Author: fyl <838106527@qq.com>
+Date:   Mon Jan 25 18:13:41 2021 +0800
+
+     修改了说明文档的格式
+
+commit d1e7fec0d36d8e448434a7758a5eda946d6a29ba
+Author: fyl <838106527@qq.com>
+Date:   Mon Jan 25 18:07:53 2021 +0800
+
+     进行了大量压力测试，新增了bitmap实现的布隆过滤器优化，修改了说明文档等
+
+commit ba4ba67dde5e5263ed8415e9936c4cf4604394f3
+Author: fyl <838106527@qq.com>
+Date:   Sat Jan 23 16:04:52 2021 +0800
+
+     修复了没有判断数据库查询结果是否为空导致的内存问题
+
+commit 9ce8948e9f7a88a29c81af03ad6abf9b5f3d0358
+Author: fyl <838106527@qq.com>
+Date:   Sat Jan 23 15:37:16 2021 +0800
+
+     把主文件夹的服务器也替换成含性能统计的版本
+
+commit 3beb28b0a977d46b2c2e6c4f18dc59c23edc04dd
+Author: fyl <838106527@qq.com>
+Date:   Sat Jan 23 15:33:27 2021 +0800
+
+     实现了压力测试，模拟大量并发请求登录
+
+commit c7d12154f8f94485d74fd1058b4d462208af82f3
+Author: fyl <838106527@qq.com>
+Date:   Fri Jan 15 12:26:09 2021 +0800
+
+     修改了说明文档
+
+commit d8e15487646c23d4d1d8d75bbf42cbda38502952
+Author: fyl <838106527@qq.com>
+Date:   Wed Jan 13 14:19:26 2021 +0800
+
+     修复了众多bug，但是压力测试还是有bug，stress_test文件夹可以暂时无视
+
+commit 41854dff3c9ba66d64ed2df8a75deb0f0fe05281
+Author: fyl <838106527@qq.com>
+Date:   Wed Jan 13 14:09:52 2021 +0800
+
+     将io移到工作线程
+
+commit a1504a5b2f2d897b2ee318921266f81660309160
+Author: fyl <838106527@qq.com>
+Date:   Tue Jan 12 16:49:16 2021 +0800
+
+     在stress_test文件夹中进行了压力测试
+
+commit fa452d751efc478e381d61af062451f3fab6b732
+Author: fuyinglong <55621210+CopyDragon@users.noreply.github.com>
+Date:   Fri Jan 8 19:20:51 2021 +0800
+
+    Delete EOF
+
+commit ca069a3b40d711facc18bd8b9c5c7ad0ec378b97
+Author: fyl <838106527@qq.com>
+Date:   Fri Jan 8 19:14:25 2021 +0800
+
+     修改了说明文档前面的介绍
+
+commit 5b0daa2a4e0f91df639354ebc461a8029428e76b
+Author: fyl <838106527@qq.com>
+Date:   Fri Jan 8 19:00:41 2021 +0800
+
+     修改了说明文档，增加了redis记录登录状态的说明
+
+commit 88e9034ba36f6d04dd5b042012b85654bd7de876
+Author: fyl <838106527@qq.com>
+Date:   Thu Jan 7 15:02:55 2021 +0800
+
+     修改了说明文档
+
+commit e5e47ec72fd65a087efdce585e163cbcb52e62fb
+Author: fyl <838106527@qq.com>
+Date:   Wed Jan 6 18:39:36 2021 +0800
+
+     去掉了一些重复的include语句
+
+commit 63050e3d56313c810d45b88a514ee0485a3f4b9b
+Author: fyl <838106527@qq.com>
+Date:   Wed Jan 6 12:58:52 2021 +0800
+
+     修改了说明文档
+
+commit 1b69690ef7653ca3a523d5f9aa3f9e9a6ec79a4f
+Author: fyl <838106527@qq.com>
+Date:   Wed Jan 6 12:54:06 2021 +0800
+
+     2021.1.6新增： epoll添加了EPOLLONESHOT，防止多个线程在同一socket上工作
+
+commit f2efe69e72cd32da04e8ae841d088f912b01f5d0
+Author: fyl <838106527@qq.com>
+Date:   Tue Dec 22 18:02:59 2020 +0800
+
+    修改了说明文档
+
+commit 26b9707f1c7bb67f0539d8eca757a0c36cedc42f
+Author: fyl <838106527@qq.com>
+Date:   Tue Dec 22 17:57:05 2020 +0800
+
+     补充了漏掉的互斥锁
+
+commit 61fb6b4c7cc95c1155d1af9c3f69e5ffd4d0c8e8
+Author: fyl <838106527@qq.com>
+Date:   Tue Dec 22 17:15:45 2020 +0800
+
+     修改了众多bug，修改了说明文档
+
+commit d469615dedcdb16d3401d991cc5c2d84f985a88c
+Author: fyl <838106527@qq.com>
+Date:   Tue Dec 22 17:12:42 2020 +0800
+
+     2020.12.22 新增了IO多路复用+线程池实现的并发服务器
+
+commit 70ab54b7537a06fd5f361b88c812f74c8897e222
+Author: fyl <838106527@qq.com>
+Date:   Fri Dec 11 12:56:18 2020 +0800
+
+    重新导出了log.txt
+
+commit 645bafccf45643a4fd6bc57eb09a2ced3bec50e3
+Author: fyl <838106527@qq.com>
+Date:   Fri Dec 11 12:52:07 2020 +0800
+
+     修改了说明文档
+
+commit 82e0edcc60bd66da566d3f1dd2915be13f11e8a5
+Author: fyl <838106527@qq.com>
+Date:   Thu Dec 10 21:28:00 2020 +0800
+
+    2020.12.10新增了boost库的线程池实现服务器端，未修改说明文档
+
+commit e317223a929f0cc829e4704c86a1e9acbdf86847
+Author: fyl <838106527@qq.com>
+Date:   Wed Dec 9 16:12:42 2020 +0800
+
+    修复了一些bug
+
+commit 5f46967a9733ad1c37509e33c3177326c1ffe7d7
+Author: fyl <838106527@qq.com>
+Date:   Wed Dec 9 16:11:25 2020 +0800
+
+    2020.12.9：新增了使用redis保存session对象记录登录状态的功能
+
+commit a19092860935def72ff55ac54c2439dbe75776cb
+Author: fyl <838106527@qq.com>
+Date:   Mon Oct 26 15:41:25 2020 +0800
+
+    修改了readme (10.26)
+
+commit ff977c1eb41117b40ce371e7e051a9ab971c92c0
+Author: fyl <838106527@qq.com>
+Date:   Mon Oct 26 15:35:51 2020 +0800
+
+     删掉test_client.sh
+
+commit 33176d35b527b557c8f89e672a8bc6676afdcd48
+Author: fyl <838106527@qq.com>
+Date:   Sun Oct 25 21:43:47 2020 +0800
+
+     将保存一个群里的文件描述符的数据结构从vector改为set (10.25)
+
+commit 37117c75043d0d9e23f13dbe7ca03b03c1a911cd
+Author: fyl <838106527@qq.com>
+Date:   Sun Oct 25 18:46:39 2020 +0800
+
+     导出了log.txt日志 (10.25)
+
+commit 45aa044e715f39027385cdda9ccd9efbaa5ad1a7
+Author: fyl <838106527@qq.com>
+Date:   Sun Oct 25 18:45:09 2020 +0800
+
+     增加了群聊功能，美化了界面 (10.25)
+
+commit cd4395568d03798f6edbc89a07601c3383df9c2d
+Author: fyl <838106527@qq.com>
+Date:   Fri Oct 23 20:06:08 2020 +0800
+
+     补充了源代码文件中的作者姓名和邮箱 (10.23)
+
+commit 24718299176e71a2e2d411d16ced1a944910f814
+Author: fyl <838106527@qq.com>
+Date:   Fri Oct 23 19:53:51 2020 +0800
+
+     修复了试图连接未登录用户的bug，增加了服务器的各项提示信息，重新编写了makefile (10.23)
+
+commit cbd0a2066482b86957499f649bbb07af6c622307
+Author: fyl <838106527@qq.com>
+Date:   Thu Oct 22 13:00:41 2020 +0800
+
+     注册+登录+私聊，无bug (10.22)
+
+commit ae7aa90adaee78c8e49dc90d8963af14a3962c2d
+Author: fyl <838106527@qq.com>
+Date:   Thu Oct 22 11:24:35 2020 +0800
+
+     增加了输入exit结束聊天线程的功能 (10.22)
+
+commit e0ac441170b2c4f7f1dbd503a391bef0e91186ad
+Author: fyl <838106527@qq.com>
+Date:   Wed Oct 21 20:39:10 2020 +0800
+
+     添加了单独聊天功能，仍有bug (10.21)
+
+commit bfdae04afefe637bc556de5a00e2de2d8952495d
+Author: fyl <838106527@qq.com>
+Date:   Wed Oct 21 13:16:45 2020 +0800
+
+     完成服务器多线程处理 10.21
+
+commit 2e3e6660f5009a4733a3fd0c83cd63332d7670fd
+Author: fyl <838106527@qq.com>
+Date:   Tue Oct 20 21:39:12 2020 +0800
+
+    尝试为服务器添加多线程，未完成 10.20
+
+commit 522da0752ad21f5ca8c3d6c542434545e3ca114c
+Author: fyl <838106527@qq.com>
+Date:   Tue Oct 20 18:01:26 2020 +0800
+
+    注册+登录，增加了服务端的类封装 10.20
+
+commit 668603a9bfca02710e068694170399b58ace922d
+Author: fyl <838106527@qq.com>
+Date:   Tue Oct 20 12:47:09 2020 +0800
+
+    注册+登录（已完成） 10.20
+
+commit 417d9b779ab09e662b88f45151c7d612eff33f96
+Author: fyl <838106527@qq.com>
+Date:   Mon Oct 19 18:37:27 2020 +0800
+
+    注册（已完成）+登录（未完成）  10.19
+
+commit 7d2b625e6c39ea40dfe02ef300b38dec67e6d2d2
+Author: fyl <838106527@qq.com>
+Date:   Sun Oct 18 18:40:14 2020 +0800
+
+    测试tcp通信+数据库连接(10.18)
